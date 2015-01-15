@@ -1,0 +1,312 @@
+The MIT License (MIT)
+
+Copyright (c) 2015 Donovan Squires
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+\documentclass{article}
+\usepackage{setspace}
+
+\usepackage{graphicx,calc,pdfpages}	% package that allows graphics to be included
+% sets 1.5in margins instead of article's large defaults
+\usepackage[letterpaper,margin=1.5in]{geometry}
+\usepackage{indentfirst}		% indents the first paragraph of sections
+
+\usepackage{float}			% required for [H] option of \begin{figure}
+\usepackage{caption,subcaption}
+\usepackage{longtable,pdflscape}
+\usepackage{amsmath}
+\usepackage[hidelinks]{hyperref}
+
+\usepackage{appendix}			% additional appendix formatting options
+
+% render units in upright text (non-italics) in math mode (e.g. $20\unit(Hz)$)
+\newcommand{\unit}[1]{\ensuremath{\, \mathrm{#1}}}
+
+\doublespacing
+
+\begin{document}
+
+\pagenumbering{alph}			% abstract and copyright page not numbered
+					% using lower case letters for pdf pagination
+%\input{./sections/abstract/abstract.tex}	% leave out of GitHub until I get permission from Dr. Miller
+\thispagestyle{empty}
+
+\newpage
+\pagenumbering{roman}			% use lowercase roman numerals for frontmatter
+					% restarts counter, title page is "i" even though
+					% page number isn't visible
+
+\input{./sections/title/title.tex}
+\thispagestyle{empty}			% removes page number (must be after \maketitle, if using)
+
+\newpage
+
+\pagenumbering{alph}
+\addtocounter{page}{1}			% counter restarted, so have to add 1
+
+\input{sections/copy.tex}
+\thispagestyle{empty}
+
+\newpage
+
+\pagenumbering{roman}
+\addtocounter{page}{1}			% counter restarted, so have to add 1
+
+\section*{Foreword} 			%'*' keeps the section from being numbered
+%\addcontentsline{toc}{section}{Introduction} %add un-numbered section to table of contents
+
+\input{miller/SquiresBatzerThesisForeword.tex}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\listoffigures
+
+\newpage
+
+\listoftables
+
+\newpage
+
+\pagenumbering{arabic}			% switch to arabic page number, reset page counter to 1
+
+\section[Introduction]{Introduction\footnote{This section is co-authored with Kyle Batzer,~\cite{BatzerMSEE}.}\addtocounter{footnote}{-1}\addtocounter{Hfootnote}{-1}}
+
+%brief overview of MEA and Earthworm and the need for a 
+%custom eight channel Stimulation and Data Acquisition System
+\input{sections/intro.tex}
+
+\section[Specifications]{Specifications\footnotemark}\label{sec:spec}
+
+\input{sections/spec.tex}
+
+\section{Terminology}\label{sec:term}
+
+\input{sections/term.tex}
+
+\section{Data Acquisition and Stimulation System Hardware}\label{sec:hardware}
+
+%Overview of the stimulation and acquisition hardware including custom board and relevant sections of the Nexys2 development board as shown in Figure~\ref{fig:System}.  Detailed description of each item of the system in the following subsections.
+%\ref command will put in the figure number if latex can't find the label it will instead put in "??"
+\input{sections/sdh.tex}
+
+\subsection{Power Supply}\label{sec:power}
+
+%Design and description of power sources and voltage regulators
+\input{sections/power.tex}
+
+\subsubsection{Grounding}\label{sec:ground}
+
+%Description of analog and digital grounding considerations
+\input{sections/ground.tex}
+
+\subsubsection{Decoupling Capacitors}
+
+\input{sections/capacitors.tex}
+	
+\subsection{Programmable Logic Configuration}
+
+%Description of configuration flash ROM for storing FPGA configuration data and configuring FPGA without a PC
+\input{sections/config.tex}
+
+\subsection{Real Time System Controller Board Circuit Design}
+
+This sections describes the relevant circuitry on the Digilent\textsuperscript{\textregistered} Nexys\textsuperscript{TM} 2 FPGA development board that is utilized by the Data Acquisition and Stimulation System (DASS) as the Real Time System Controller (RTSC) Board.  Replacing the Nexys\textsuperscript{TM} 2 FPGA development board with a custom RTSC Board or designing a system based on the DASS with more channels, as described in section~\ref{sec:scaling}, would require the duplication of the following circuitry or the design of new circuitry that would preform similar functions.
+
+\subsubsection{Cypress Microcontroller}
+
+%Description of the data connections between the FPGA and Cypress Microcontroller and the USB connection to the PC
+\input{sections/cypress.tex}
+
+\subsubsection{RS232 Control Interface}
+
+%Description of RS232 level shifter that allows the FPGA to interface with the PC over RS232
+\input{sections/rs232.tex}
+
+\subsubsection{DRAM}
+
+%Description of DRAM connections to the FPGA
+\input{sections/DRAM.tex}
+
+\subsection{Electrophysiology Interface Board Circuit Design}
+
+This section describes and documents the design of the custom circuitry on the Electrophysiology Interface Board.  These circuits were implemented on a custom printed circuit board (PCB), described in section~\ref{sec:build}.  The circuit designs in this section could also be used in the creation of a 64 channel system, as proposed in section~\ref{sec:scaling}, for use in microelectrode array (MEA) electrophysiology experiments.
+
+\subsubsection{Digital to Analog Converter}\label{sec:dac}
+
+%Description of DAC connections to the FPGA
+\input{sections/DAC.tex}
+
+\subsubsection{Differential Output Amplifier}\label{sec:DOA}
+
+%Design and description of the differential output amplifier providing gain and offset to DAC output including SPICE simulations
+\input{sections/DOA.tex}
+
+\subsubsection{Analog to Digital Converter}\label{sec:adc}
+
+%Description of ADC connections to the FPGA
+\input{sections/ADC.tex}
+
+\subsubsection{Preamp Interface}\label{sec:preamp}
+
+%Description of PCI-Express connections to the Preamp and the relevant signals to/from the differential output amplifier, ADC, and CPLD
+\input{sections/PreAmp.tex}
+
+\subsubsection{CPLD}\label{sec:cpld}
+
+%Description of the CPLD and its connections to the FPGA and Preamps
+\input{sections/CPLD.tex}
+
+
+\section{Building the Electrophysiology Interface Board}\label{sec:build}
+
+%Description of the steps taken to implement the design on a PCB from schematic capture to layout to ordering to testing
+\input{sections/build.tex}
+
+\subsection{Hierarchical Schematic Capture}
+
+%Description of creating the hierarchical schematic 
+
+\input{sections/schem.tex}
+
+\subsection{Component Footprint Selection}
+
+\input{sections/component.tex}
+
+\subsection{Layout Overview}
+
+%Description of the placement of the circuit blocks on the board
+\input{sections/layout.tex}
+
+\subsection{Manufacturing and Assembly}
+
+\input{sections/manass.tex}
+
+\section[Electrophysiology Application]{Electrophysiology Application\footnote{This section is co-authored with Kyle Batzer,~\cite{BatzerMSEE}.}}\label{sec:app}
+
+%Description of the experiment performed to verify that the system can work with bio-electrical signals results also in earthworm.tex
+\input{sections/earthworm.tex}
+
+\section[Specifications Review]{Specifications Review\footnote{This section is co-authored with Kyle Batzer,~\cite{BatzerMSEE}}}
+
+%Review how well the requirements were met
+\input{sections/review.tex}
+
+\section{Scaling the DASS Hardware to 60 Channels}\label{sec:scaling}
+
+%An overview of the elements of the Nexys2 and Stimulation and Data Acquisition Board that could be copied to build the hardware for a 60 channel MEA stimulation and data acquisition system.
+\input{sections/scaling.tex}
+
+\section{Conclusions}
+
+\input{sections/conclusion.tex}
+
+\newpage
+\appendix
+\appendixpage
+\addappheadtotoc
+
+\section{Electrophysiology Interface Board Schematic}\label{sec:schematic}
+
+The following is the hierarchical schematic for the Electrophysiology Interface Board.  The schematic was created using the KiCAD open source EDA software suite.
+
+The first page of the schematic contains most of the connectors on the Electrophysiology Interface Board.  Hierarchical blocks in the first schematic page represent following schematic pages with labels on the blocks corresponding to net names in the schematic page represented by the block.  All signals have a scope only within a single schematic page save for the power supply nets, which have a global scope.  The power supply input connectors are shown on page~\pageref{SchematicRev1r0.14}, and since the power nets are global, the hierarchical block on page~\pageref{SchematicRev1r0.1} representing power input connector page, page~\pageref{SchematicRev1r0.14}, is empty of labels.
+
+\newcounter{includepdfpage} % used to allow \pageref to the individual pdf pages http://tex.stackexchange.com/questions/25105/unable-to-link-to-inserted-pages-with-pdfpages
+\includepdf[pages=-,link,linkname=SchematicRev1r0,landscape=true,noautoscale,trim=0.38in 0.38in 0.38in 0.38in,clip,width=\textheight,pagecommand={\refstepcounter{includepdfpage}\label{SchematicRev1r0.\theincludepdfpage}}]{./figures/SchematicRev1r0.pdf}
+
+\section{KiCad Gerber File Export Instructions}\label{sec:gerberexp}
+
+\input{sections/gerberexp.tex}
+
+\section{Bill of Materials}\label{sec:bom}
+
+Table~\ref{tab:bom} in this section shows the list of components used to populate the Electrophysiology Interface board.  Information from the KiCAD EDA suite, such as reference designator, footprint name (Package), and component value (Designation), is aligned with data from the part supplier, DigiKey\textsuperscript{\textregistered}, such as part number and unit price at the time of purchase.
+
+\begin{landscape}
+\renewcommand{\arraystretch}{1.3}
+\begin{table}
+\tiny
+	\begin{tabular}{|l|p{0.9in}|l|l|l|p{1.1in}|p{2.1in}|r|r|}
+	\hline
+	\input{BOMTable.tex}
+	\end{tabular}
+\caption{Electrophysiology Interface Board Bill of Materials, cost\label{tab:bom} }
+\end{table}
+\renewcommand{\arraystretch}{1.0}
+\end{landscape}
+
+\begin{center}
+\begin{table}[H]
+\begin{tabular}{c}
+	\includegraphics[page=1,trim=1in 1.7in 1.2in 1.5in,clip,width=\textwidth-0.25in ]{./figures/BOMTableLongForm} %[trim=left bottom right top]
+\end{tabular}
+\caption{Electrophysiology Interface Board Bill of Materials, assembly\label{tab:boma} }
+\end{table}
+\end{center}
+
+\section{Revision 1.0 Errata}\label{sec:errata}
+
+Table~\ref{tab:errata} is a description of the problems with the first revision of the Electrophysiology Interface Board that require rework of the PCB for it to work as desired or that should be fixed if another board is ordered (Rev1.1)
+
+\begin{singlespace}
+\begin{center}
+\begin{table}[H]
+\begin{tabular}{|l|p{1.5in}|l|p{1.5in}|}
+\hline	Affected parts	&Problem 	&Implementation	&Solution\\ \hline
+D2	&D2 is forward bias under normal operation, it shorts AGND and {--VA}	&Immediate	&Flip diode around\\ \hline
+C13	&Reference isn't on silks	&Next Rev.	&Move reference in Pcbnew\\ \hline
+U3/4	&No test point on SHDN of U4	&Next Rev.	&Add test point in Eechema\\ \hline
+U4	&Output doesn't drop when in shutdown (capacitors stay charged)	&Next Rev.	&Add load resistor, $220\unit{\Omega}$ tested, try $10\unit{k\Omega}$\\ \hline
+P1	&Reference isn't on silks	&Next Rev.	&Move reference in Pcbnew\\ \hline
+U11	&JTAG TDI and TDO swapped	&Immediate	&Don't populate R92 and R93, use pads to reroute signal\\ \hline
+C1	&Reference isn't on silks	&Next Rev.	&Move reference in Pcbnew\\ \hline
+U5/7	&Reference is under part	&Next Rev.	&Move reference in Pcbnew\\ \hline
+\end{tabular}
+\caption{Electrophysiology Interface Board revision 1.0 errata\label{tab:errata} }
+\end{table}
+\end{center}
+\end{singlespace}
+
+\section{Earthworm Experiment Notes}\label{sec:tips}
+
+\input{sections/earthnotes.tex}
+
+\section{GitHub Repository}
+
+A GitHub repository~\cite{BatzerRepo} has been created that contains the source files and documentation from the companion thesis~\cite{BatzerMSEE}; experimental data and pictures from work done for section~\ref{sec:results}; KiCAD schematic, layout, and library files for the Electrophysiology Interface board; and the \LaTeX source for this thesis.
+
+\newpage
+
+\begin{singlespace} 
+\bibliographystyle{IEEEtran}
+
+%Add references to table of contents page
+\phantomsection
+\addcontentsline{toc}{section}{References}
+
+\bibliography{ref}
+\end{singlespace}
+
+\end{document}

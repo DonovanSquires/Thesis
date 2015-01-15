@@ -1,0 +1,95 @@
+\documentclass{minimal}
+
+\usepackage{tikz}
+\usetikzlibrary{backgrounds,circuits.ee.iec,calc,arrows,shadings}
+
+
+
+\begin{document}
+
+\begin{tikzpicture}[scale=1,
+					show background rectangle,
+					node distance = 0.5cm,
+					circuit ee IEC,
+					set resistor graphic=var resistor IEC graphic,]
+
+%Requires libraries: calc, circuits.ee.IEC, arrows, shadings
+
+\newcommand{\textoverline}[1]{$\overline{\mbox{#1}}$} %provides overlines while in normal (not math) mode
+
+%----Nexys2-----
+
+\node (Nexys2) [transform shape,
+				anchor=south west,
+				draw,
+				top color = green!20!white!20,
+				bottom color = green!80!black!20,
+				minimum height=3cm,
+				minimum width=2cm,
+				label={[text height=1.5ex,text depth=.25ex]Nexys2},
+				] at (0,4) {};
+
+\begin{scope}[anchor=east]
+%\draw (0,0) rectangle (2,8);
+\node (a1) at ($(Nexys2.north east) - (0,0.5)$) {FX2\textunderscore IO1};
+\node (a2) at ($(a1.east) - (0,0.5)$) {FX2\_IO2};
+\node (a3) at ($(a2.east) - (0,0.5)$) {FX2\_IO3};
+\node (a4) at ($(a3.east) - (0,0.5)$) {FX2\_IO4};
+\node (a5) at ($(a4.east) - (0,0.5)$) {FX2\_IO5};
+
+\end{scope}
+
+%----AD5678-----
+
+%\draw (8,0) rectangle (10,8);
+\node (AD5678) [transform shape,
+				anchor=south west,
+				draw,
+				top color = green!20!white!20,
+				bottom color = green!80!black!20,
+				minimum height=3cm,
+				minimum width=2cm,
+				label={[text height=1.5ex,text depth=.25ex]AD5678},
+				] at (6,4) {};
+
+\begin{scope}[anchor=west]
+
+% whithin this scope, nodes are placed by their left (west) anchor point
+
+\node (b1) at ($(AD5678.north west) - (0,0.5)$) {SCLK};
+\node (b2) at ($(b1.west) - (0,0.5)$) {\textoverline{SYNC}};
+\node (b3) at ($(b2.west) - (0,0.5)$) {DIN};
+\node (b4) at ($(b3.west) - (0,0.5)$) {\textoverline{LDAC}};
+\node (b5) at ($(b4.west) - (0,0.5)$) {\textoverline{CLR}};
+
+\end{scope}
+
+%----Resistors----
+
+\node (r1) [resistor,ohm=10k,point down] at (3,3.5) {};
+\node (r2) [resistor,ohm=10k,point down] at (4.5,3.5) {};
+\node (g1) [ground,point down] at ($(r1.east) - (0,0.5)$) {};
+\node (g2) [ground,point down] at ($(r2.east) - (0,0.5)$) {};
+
+%----Arrows----
+
+\begin{scope}[-triangle 60]
+
+\draw (a1) -- (b1);
+\draw (a2) -- (b2);
+\draw (a3) -- (b3);
+\draw (a4) -- ($(a4.east) + (1,0)$) node[contact](a4con){} -- (b4);
+\draw (a5) -- ($(a5.east) + (2.5,0)$) node[contact](a5con){} -- (b5);
+
+\end{scope}
+
+\draw (g1) -- (r1) -- (a4con);
+\draw (g2) -- (r2) -- (a5con);
+
+% circle to indicate coordinates
+%\fill (a4con.center) circle (4pt) {};
+
+\end{tikzpicture}
+
+
+\end{document}

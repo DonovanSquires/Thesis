@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="14cm" height="9cm" viewBox="1 6 269 163" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="2" y="14" width="166" height="140"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke-dasharray: 4; stroke: #000000" x="2" y="14" width="166" height="140"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="176" y="14" width="94" height="140"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke-dasharray: 4; stroke: #000000" x="176" y="14" width="94" height="140"/>
+  </g>
+  <g>
+    <rect style="fill: #c7ffc7" x="16" y="32" width="40" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="16" y="32" width="40" height="28"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffc7" x="8" y="96" width="18" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="8" y="96" width="18" height="38"/>
+  </g>
+  <g>
+    <rect style="fill: #c7ffc7" x="76" y="32" width="40" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="76" y="32" width="40" height="28"/>
+  </g>
+  <g>
+    <rect style="fill: #c7ffc7" x="208" y="32" width="40" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="208" y="32" width="40" height="28"/>
+  </g>
+  <g>
+    <rect style="fill: #c7ffc7" x="106" y="96" width="36" height="26"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="106" y="96" width="36" height="26"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffc7" x="234" y="96" width="20" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="234" y="96" width="20" height="44"/>
+  </g>
+  <g>
+    <polygon style="fill: #c7ffc7" points="156,46 146,66 136,46 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="156,46 146,66 136,46 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffc7" x="166" y="18" width="12" height="130"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="166" y="18" width="12" height="130"/>
+  </g>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="54" y="49.55">
+    <tspan x="54" y="49.55">TMS</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="54" y="55.55">
+    <tspan x="54" y="55.55">TCK</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="24" y="101.55">
+    <tspan x="24" y="101.55">TMS</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="24" y="119.55">
+    <tspan x="24" y="119.55">TCK</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="24" y="107.55">
+    <tspan x="24" y="107.55">TDI</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="24" y="113.55">
+    <tspan x="24" y="113.55">TDO</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="24" y="131.55">
+    <tspan x="24" y="131.55">+3.3V</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="24" y="125.55">
+    <tspan x="24" y="125.55">GND</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="108" y="101.55">
+    <tspan x="108" y="101.55">TMS</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="108" y="119.55">
+    <tspan x="108" y="119.55">TCK</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="108" y="107.55">
+    <tspan x="108" y="107.55">TDI</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="108" y="113.55">
+    <tspan x="108" y="113.55">TDO</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="246" y="49.55">
+    <tspan x="246" y="49.55">TMS</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="246" y="55.55">
+    <tspan x="246" y="55.55">TCK</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="114" y="49.55">
+    <tspan x="114" y="49.55">TMS</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="114" y="55.55">
+    <tspan x="114" y="55.55">TCK</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="54" y="41.55">
+    <tspan x="54" y="41.55">TDO</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="114" y="41.55">
+    <tspan x="114" y="41.55">TDO</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="246" y="41.55">
+    <tspan x="246" y="41.55">TDO</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="18" y="41.55">
+    <tspan x="18" y="41.55">TDI</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="80" y="41.55">
+    <tspan x="80" y="41.55">TDI</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="210" y="41.55">
+    <tspan x="210" y="41.55">TDI</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="236" y="101.55">
+    <tspan x="236" y="101.55">TMS</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="236" y="119.55">
+    <tspan x="236" y="119.55">TCK</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="236" y="107.55">
+    <tspan x="236" y="107.55">TDI</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="236" y="113.55">
+    <tspan x="236" y="113.55">TDO</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="236" y="131.55">
+    <tspan x="236" y="131.55">+3.3V</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="236" y="125.55">
+    <tspan x="236" y="125.55">GND</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="236" y="137.55">
+    <tspan x="236" y="137.55">JTSEL</tspan>
+  </text>
+  <text font-size="6.77333" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="36" y="30.3">
+    <tspan x="36" y="30.3">XC3S500E</tspan>
+  </text>
+  <text font-size="6.77333" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="96" y="30.3">
+    <tspan x="96" y="30.3">XCF00S</tspan>
+  </text>
+  <text font-size="6.77333" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="228" y="30.3">
+    <tspan x="228" y="30.3">XC9572XL</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="124" y="94.9">
+    <tspan x="124" y="94.9">CY7C68013A</tspan>
+  </text>
+  <text font-size="6.77333" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="85" y="12.3">
+    <tspan x="85" y="12.3">Real Time System Controller</tspan>
+  </text>
+  <text font-size="6.77333" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="223" y="12.3">
+    <tspan x="223" y="12.3">Electrophysiology Interface</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="38" y="96">
+    <tspan x="38" y="96">200</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="88" y="96">
+    <tspan x="88" y="96">100</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="150" y="57.55">
+    <tspan x="150" y="57.55">EN</tspan>
+  </text>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="26,100 33.2,100 34,98 35.6,102 37.2,98 38.8,102 40.4,98 42,102 42.8,100 50,100 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="26,118 33.2,118 34,116 35.6,120 37.2,116 38.8,120 40.4,116 42,120 42.8,118 50,118 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="26,106 33.2,106 34,104 35.6,108 37.2,104 38.8,108 40.4,104 42,108 42.8,106 50,106 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="76,100 83.2,100 84,98 85.6,102 87.2,98 88.8,102 90.4,98 92,102 92.8,100 100,100 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="76,106 83.2,106 84,104 85.6,108 87.2,104 88.8,108 90.4,104 92,108 92.8,106 100,106 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="76,112 83.2,112 84,110 85.6,114 87.2,110 88.8,114 90.4,110 92,114 92.8,112 100,112 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="76,118 83.2,118 84,116 85.6,120 87.2,116 88.8,120 90.4,116 92,120 92.8,118 100,118 "/>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="59.2,48 70,48 70,70 "/>
+    <polygon style="fill: #000000" points="59.2,46.5 56.2,48 59.2,49.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="59.2,46.5 56.2,48 59.2,49.5 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="59.2,54 64,54 64,76 "/>
+    <polygon style="fill: #000000" points="59.2,52.5 56.2,54 59.2,55.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="59.2,52.5 56.2,54 59.2,55.5 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="119.2,48 132,48 132,70 "/>
+    <polygon style="fill: #000000" points="119.2,46.5 116.2,48 119.2,49.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="119.2,46.5 116.2,48 119.2,49.5 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="119.2,54 124,54 124,76 "/>
+    <polygon style="fill: #000000" points="119.2,52.5 116.2,54 119.2,55.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="119.2,52.5 116.2,54 119.2,55.5 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="251.2,48 262,48 262,70 "/>
+    <polygon style="fill: #000000" points="251.2,46.5 248.2,48 251.2,49.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="251.2,46.5 248.2,48 251.2,49.5 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="251.2,54 256,54 256,76 "/>
+    <polygon style="fill: #000000" points="251.2,52.5 248.2,54 251.2,55.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="251.2,52.5 248.2,54 251.2,55.5 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="154.2,56 182,56 182,136 234,136 "/>
+    <path style="fill: #ffffff" d="M 151.2 56 C 151.2,55.25 151.95,54.5 152.7,54.5 C 153.45,54.5 154.2,55.25 154.2,56 C 154.2,56.75 153.45,57.5 152.7,57.5 C 151.95,57.5 151.2,56.75 151.2,56z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" d="M 151.2 56 C 151.2,55.25 151.95,54.5 152.7,54.5 C 153.45,54.5 154.2,55.25 154.2,56 C 154.2,56.75 153.45,57.5 152.7,57.5 C 151.95,57.5 151.2,56.75 151.2,56"/>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="58" y1="70" x2="262" y2="70"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="64" y1="76" x2="256" y2="76"/>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="12.8,40 6,40 6,82 50,82 50,106 "/>
+    <polygon style="fill: #000000" points="12.8,41.5 15.8,40 12.8,38.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="12.8,41.5 15.8,40 12.8,38.5 "/>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="58,70 58,100 50,100 "/>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="248,40 268,40 268,82 66,82 66,112 29.2,112 "/>
+    <polygon style="fill: #000000" points="29.2,110.5 26.2,112 29.2,113.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="29.2,110.5 26.2,112 29.2,113.5 "/>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="74,76 74,118 50,118 "/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="58" y1="100" x2="76" y2="100"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="50" y1="106" x2="76" y2="106"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="66" y1="112" x2="76" y2="112"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="74" y1="118" x2="76" y2="118"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="146" y1="66" x2="146" y2="82"/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="56" y1="40" x2="72.8" y2="40"/>
+    <polygon style="fill: #000000" points="72.8,41.5 75.8,40 72.8,38.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="72.8,41.5 75.8,40 72.8,38.5 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="116" y1="40" x2="204.8" y2="40"/>
+    <polygon style="fill: #000000" points="204.8,41.5 207.8,40 204.8,38.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="204.8,41.5 207.8,40 204.8,38.5 "/>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="146" y1="40" x2="146" y2="46"/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="200,40 200,106 234,106 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="206,70 206,100 234,100 "/>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="194,82 194,112 230.8,112 "/>
+    <polygon style="fill: #000000" points="230.8,113.5 233.8,112 230.8,110.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="230.8,113.5 233.8,112 230.8,110.5 "/>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="188,76 188,118 234,118 "/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="100" y1="112" x2="102.8" y2="112"/>
+    <polygon style="fill: #000000" points="102.8,113.5 105.8,112 102.8,110.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="102.8,113.5 105.8,112 102.8,110.5 "/>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="106" y1="100" x2="100" y2="100"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="106" y1="106" x2="100" y2="106"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="106" y1="118" x2="100" y2="118"/>
+  <g>
+    <ellipse style="fill: #000000" cx="70" cy="70" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="70" cy="70" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="132" cy="70" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="132" cy="70" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="124" cy="76" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="124" cy="76" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="146" cy="82" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="146" cy="82" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="50" cy="106" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="50" cy="106" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="66" cy="112" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="66" cy="112" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="74" cy="118" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="74" cy="118" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="188" cy="76" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="188" cy="76" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="194" cy="82" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="194" cy="82" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="206" cy="70" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="206" cy="70" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="158" cy="56" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="158" cy="56" rx="0.5" ry="0.5"/>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="158,86 158,93.2 156,94 160,95.6 156,97.2 160,98.8 156,100.4 160,102 158,102.8 158,110 "/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="158" y1="56" x2="158" y2="86"/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="158" y1="110" x2="158" y2="114"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="154" y1="114" x2="162" y2="114"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="155.34" y1="116" x2="160.66" y2="116"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="156.68" y1="118" x2="159.32" y2="118"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="34" y1="130" x2="34" y2="134"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="30" y1="134" x2="38" y2="134"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="31.34" y1="136" x2="36.66" y2="136"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="32.68" y1="138" x2="35.32" y2="138"/>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="34,130 34,124 26,124 "/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="228" y1="142" x2="228" y2="146"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="224" y1="146" x2="232" y2="146"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="225.34" y1="148" x2="230.66" y2="148"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="226.68" y1="150" x2="229.32" y2="150"/>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="228,142 228,124 234,124 "/>
+  <g>
+    <ellipse style="fill: #000000" cx="200" cy="40" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="200" cy="40" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="146" cy="40" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="146" cy="40" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="58" cy="100" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="58" cy="100" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="74" cy="76" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="74" cy="76" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="260" y1="130" x2="257.2" y2="130"/>
+    <polygon style="fill: #000000" points="257.2,128.5 254.2,130 257.2,131.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="257.2,128.5 254.2,130 257.2,131.5 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="260" y1="136" x2="257.2" y2="136"/>
+    <polygon style="fill: #000000" points="257.2,134.5 254.2,136 257.2,137.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="257.2,134.5 254.2,136 257.2,137.5 "/>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="260" y1="136" x2="260" y2="130"/>
+  <g>
+    <rect style="fill: #c7ffc7" x="8" y="160" width="8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="8" y="160" width="8" height="8"/>
+  </g>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="18" y="165.55">
+    <tspan x="18" y="165.55">Digital Part(s)</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffc7" x="58" y="160" width="8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="58" y="160" width="8" height="8"/>
+  </g>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="68" y="165.55">
+    <tspan x="68" y="165.55">Connector(s)</tspan>
+  </text>
+</svg>

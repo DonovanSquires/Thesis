@@ -1,0 +1,228 @@
+% GNUPLOT: LaTeX picture with Postscript
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \GenericError{(gnuplot) \space\space\space\@spaces}{%
+      Package color not loaded in conjunction with
+      terminal option `colourtext'%
+    }{See the gnuplot documentation for explanation.%
+    }{Either use 'blacktext' in gnuplot or load the package
+      color.sty in LaTeX.}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\includegraphics[2][]{%
+    \GenericError{(gnuplot) \space\space\space\@spaces}{%
+      Package graphicx or graphics not loaded%
+    }{See the gnuplot documentation for explanation.%
+    }{The gnuplot epslatex terminal needs graphicx.sty or graphics.sty.}%
+    \renewcommand\includegraphics[2][]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \@ifundefined{ifGPcolor}{%
+    \newif\ifGPcolor
+    \GPcolorfalse
+  }{}%
+  \@ifundefined{ifGPblacktext}{%
+    \newif\ifGPblacktext
+    \GPblacktexttrue
+  }{}%
+  % define a \g@addto@macro without @ in the name:
+  \let\gplgaddtomacro\g@addto@macro
+  % define empty templates for all commands taking text:
+  \gdef\gplbacktext{}%
+  \gdef\gplfronttext{}%
+  \makeatother
+  \ifGPblacktext
+    % no textcolor at all
+    \def\colorrgb#1{}%
+    \def\colorgray#1{}%
+  \else
+    % gray or color?
+    \ifGPcolor
+      \def\colorrgb#1{\color[rgb]{#1}}%
+      \def\colorgray#1{\color[gray]{#1}}%
+      \expandafter\def\csname LTw\endcsname{\color{white}}%
+      \expandafter\def\csname LTb\endcsname{\color{black}}%
+      \expandafter\def\csname LTa\endcsname{\color{black}}%
+      \expandafter\def\csname LT0\endcsname{\color[rgb]{1,0,0}}%
+      \expandafter\def\csname LT1\endcsname{\color[rgb]{0,1,0}}%
+      \expandafter\def\csname LT2\endcsname{\color[rgb]{0,0,1}}%
+      \expandafter\def\csname LT3\endcsname{\color[rgb]{1,0,1}}%
+      \expandafter\def\csname LT4\endcsname{\color[rgb]{0,1,1}}%
+      \expandafter\def\csname LT5\endcsname{\color[rgb]{1,1,0}}%
+      \expandafter\def\csname LT6\endcsname{\color[rgb]{0,0,0}}%
+      \expandafter\def\csname LT7\endcsname{\color[rgb]{1,0.3,0}}%
+      \expandafter\def\csname LT8\endcsname{\color[rgb]{0.5,0.5,0.5}}%
+    \else
+      % gray
+      \def\colorrgb#1{\color{black}}%
+      \def\colorgray#1{\color[gray]{#1}}%
+      \expandafter\def\csname LTw\endcsname{\color{white}}%
+      \expandafter\def\csname LTb\endcsname{\color{black}}%
+      \expandafter\def\csname LTa\endcsname{\color{black}}%
+      \expandafter\def\csname LT0\endcsname{\color{black}}%
+      \expandafter\def\csname LT1\endcsname{\color{black}}%
+      \expandafter\def\csname LT2\endcsname{\color{black}}%
+      \expandafter\def\csname LT3\endcsname{\color{black}}%
+      \expandafter\def\csname LT4\endcsname{\color{black}}%
+      \expandafter\def\csname LT5\endcsname{\color{black}}%
+      \expandafter\def\csname LT6\endcsname{\color{black}}%
+      \expandafter\def\csname LT7\endcsname{\color{black}}%
+      \expandafter\def\csname LT8\endcsname{\color{black}}%
+    \fi
+  \fi
+  \setlength{\unitlength}{0.0500bp}%
+  \begin{picture}(11520.00,8640.00)%
+    \gplgaddtomacro\gplbacktext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1377,5312){\makebox(0,0)[r]{\strut{}0}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1377,5848){\makebox(0,0)[r]{\strut{}1}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1377,6384){\makebox(0,0)[r]{\strut{}2}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1377,6919){\makebox(0,0)[r]{\strut{}3}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1377,7455){\makebox(0,0)[r]{\strut{}4}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1377,7991){\makebox(0,0)[r]{\strut{}5}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1497,4844){\makebox(0,0){\strut{}0}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(2140,4844){\makebox(0,0){\strut{}0.1}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(2782,4844){\makebox(0,0){\strut{}0.2}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(3425,4844){\makebox(0,0){\strut{}0.3}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(4067,4844){\makebox(0,0){\strut{}0.4}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(4710,4844){\makebox(0,0){\strut{}0.5}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(5352,4844){\makebox(0,0){\strut{}0.6}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1037,6517){\rotatebox{90}{\makebox(0,0){\strut{}Voltage ($V$)}}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(3424,4544){\makebox(0,0){\strut{}Time ($ms$)}}%
+      \csname LTb\endcsname%
+      \put(3424,8291){\makebox(0,0){\strut{}Input Voltage $Vin$}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplbacktext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6450,5312){\makebox(0,0)[r]{\strut{}0}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6450,5848){\makebox(0,0)[r]{\strut{}2}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6450,6384){\makebox(0,0)[r]{\strut{}4}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6450,6919){\makebox(0,0)[r]{\strut{}6}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6450,7455){\makebox(0,0)[r]{\strut{}8}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6450,7991){\makebox(0,0)[r]{\strut{}10}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6570,4844){\makebox(0,0){\strut{}0}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(7212,4844){\makebox(0,0){\strut{}0.1}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(7855,4844){\makebox(0,0){\strut{}0.2}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(8497,4844){\makebox(0,0){\strut{}0.3}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(9139,4844){\makebox(0,0){\strut{}0.4}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(9782,4844){\makebox(0,0){\strut{}0.5}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(10424,4844){\makebox(0,0){\strut{}0.6}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(5990,6517){\rotatebox{90}{\makebox(0,0){\strut{}Voltage ($V$)}}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(8497,4544){\makebox(0,0){\strut{}Time ($ms$)}}%
+      \csname LTb\endcsname%
+      \put(8497,8291){\makebox(0,0){\strut{}Differential Output Voltage $Vout+$ to $Vout-$}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplbacktext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1377,1161){\makebox(0,0)[r]{\strut{}-6}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1377,1582){\makebox(0,0)[r]{\strut{}-4}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1377,2003){\makebox(0,0)[r]{\strut{}-2}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1377,2424){\makebox(0,0)[r]{\strut{}0}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1377,2845){\makebox(0,0)[r]{\strut{}2}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1377,3266){\makebox(0,0)[r]{\strut{}4}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1377,3687){\makebox(0,0)[r]{\strut{}6}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1497,750){\makebox(0,0){\strut{}0}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(2140,750){\makebox(0,0){\strut{}0.1}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(2782,750){\makebox(0,0){\strut{}0.2}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(3425,750){\makebox(0,0){\strut{}0.3}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(4067,750){\makebox(0,0){\strut{}0.4}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(4710,750){\makebox(0,0){\strut{}0.5}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(5352,750){\makebox(0,0){\strut{}0.6}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(917,2423){\rotatebox{90}{\makebox(0,0){\strut{}Voltage ($V$)}}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(3424,450){\makebox(0,0){\strut{}Time ($ms$)}}%
+      \csname LTb\endcsname%
+      \put(3424,4197){\makebox(0,0){\strut{}Single-ended Output Voltage $Vout+$ to $AGND$}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplbacktext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6450,1161){\makebox(0,0)[r]{\strut{}-6}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6450,1582){\makebox(0,0)[r]{\strut{}-4}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6450,2003){\makebox(0,0)[r]{\strut{}-2}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6450,2424){\makebox(0,0)[r]{\strut{}0}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6450,2845){\makebox(0,0)[r]{\strut{}2}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6450,3266){\makebox(0,0)[r]{\strut{}4}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6450,3687){\makebox(0,0)[r]{\strut{}6}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6570,750){\makebox(0,0){\strut{}0}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(7212,750){\makebox(0,0){\strut{}0.1}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(7855,750){\makebox(0,0){\strut{}0.2}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(8497,750){\makebox(0,0){\strut{}0.3}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(9139,750){\makebox(0,0){\strut{}0.4}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(9782,750){\makebox(0,0){\strut{}0.5}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(10424,750){\makebox(0,0){\strut{}0.6}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(5990,2423){\rotatebox{90}{\makebox(0,0){\strut{}Voltage ($V$)}}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(8497,450){\makebox(0,0){\strut{}Time ($ms$)}}%
+      \csname LTb\endcsname%
+      \put(8497,4197){\makebox(0,0){\strut{}Single-ended Output Voltage $Vout-$ to $AGND$}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplbacktext
+    \put(0,0){\includegraphics{DiffOutAmpTrans}}%
+    \gplfronttext
+  \end{picture}%
+\endgroup

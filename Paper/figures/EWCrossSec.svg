@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="12cm" height="5cm" viewBox="24 15 232 87" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <path style="fill: #ffffc7" d="M 68 24 C 88,24 107.838,31.7327 108,40 C 108.162,48.2673 96,80 92,88 C 88,96 80,96 68,96 C 56,96 48,96 44,88 C 40,80 28,48 28,40 C 28,32 48,24 68,24z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" d="M 68 24 C 88,24 107.838,31.7327 108,40 C 108.162,48.2673 96,80 92,88 C 88,96 80,96 68,96 C 56,96 48,96 44,88 C 40,80 28,48 28,40 C 28,32 48,24 68,24"/>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 68 32 C 88,32 99.8379,35.7327 100,44 C 100.162,52.2673 92,72 88,80 C 84,88 80,88 68,88 C 56,88 52,88 48,80 C 44,72 36,52 36,44 C 36,36 48,32 68,32z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" d="M 68 32 C 88,32 99.8379,35.7327 100,44 C 100.162,52.2673 92,72 88,80 C 84,88 80,88 68,88 C 56,88 52,88 48,80 C 44,72 36,52 36,44 C 36,36 48,32 68,32"/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffc7d1" cx="68" cy="38" rx="4" ry="4"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" cx="68" cy="38" rx="4" ry="4"/>
+  </g>
+  <g>
+    <ellipse style="fill: #4d4d4d" cx="68" cy="54" rx="10" ry="10"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" cx="68" cy="54" rx="10" ry="10"/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffc7d1" cx="68" cy="70" rx="4" ry="4"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" cx="68" cy="70" rx="4" ry="4"/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffc7" cx="68" cy="82" rx="6" ry="4"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" cx="68" cy="82" rx="6" ry="4"/>
+  </g>
+  <g>
+    <ellipse style="fill: #c7ffc7" cx="67.8" cy="79.4" rx="1.8" ry="1.4"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" cx="67.8" cy="79.4" rx="1.8" ry="1.4"/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffc7d1" cx="70.6" cy="79.8" rx="1" ry="1"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" cx="70.6" cy="79.8" rx="1" ry="1"/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffc7d1" cx="65" cy="79.8" rx="1" ry="1"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" cx="65" cy="79.8" rx="1" ry="1"/>
+  </g>
+  <g>
+    <path style="fill: #ffffc7" d="M 166 46 C 166,42 166,36 170,30 C 174,24 182,22 188,26 C 194,30 244,60 246,62 C 248,64 250,66 252,70 C 254,74 254,81 253,85 C 252,89 249.263,92.7777 248,94 C 246.737,95.2223 244,98 240,98 C 236,98 236,98 232,96 C 228,94 178,62 174,60 C 170,58 166,50 166,46z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" d="M 166 46 C 166,42 166,36 170,30 C 174,24 182,22 188,26 C 194,30 244,60 246,62 C 248,64 250,66 252,70 C 254,74 254,81 253,85 C 252,89 249.263,92.7777 248,94 C 246.737,95.2223 244,98 240,98 C 236,98 236,98 232,96 C 228,94 178,62 174,60 C 170,58 166,50 166,46"/>
+  </g>
+  <g>
+    <path style="fill: #ffc7d1" d="M 181.8 27.6 C 182,26.8 182,26.8 182.2,26.6 C 182.4,26.4 183.2,24.8 184.8,25.8 C 186.4,26.8 240.4,60 242,61 C 243.6,62 243.6,64 243,65 C 242.4,66 240.8,66.8 240,66 C 239.2,65.2 184.2,31.4 183,30.6 C 181.8,29.8 181.6,28.4 181.8,27.6z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" d="M 181.8 27.6 C 182,26.8 182,26.8 182.2,26.6 C 182.4,26.4 183.2,24.8 184.8,25.8 C 186.4,26.8 240.4,60 242,61 C 243.6,62 243.6,64 243,65 C 242.4,66 240.8,66.8 240,66 C 239.2,65.2 184.2,31.4 183,30.6 C 181.8,29.8 181.6,28.4 181.8,27.6"/>
+  </g>
+  <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke-dasharray: 4; stroke: #000000" d="M 241.6 60.8 C 240.8,60.4 239.2,61.6 238.8,62.4 C 238.4,63.2 238.8,65.6 240,66"/>
+  <g>
+    <path style="fill: #c7ffc7" d="M 174 30 C 174.2,27.8 175.6,26.8 176.2,26.4 C 176.8,26 178,25.6 179.6,26.6 C 181.2,27.6 234.8,60.8 236.8,62 C 238.8,63.2 238.8,65.2 238.8,65.6 C 238.8,66 239.2,67.6 237.6,69.2 C 236,70.8 234,70.8 232.8,70 C 231.6,69.2 177.4,35.4 176.4,34.8 C 175.4,34.2 173.8,32.2 174,30z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" d="M 174 30 C 174.2,27.8 175.6,26.8 176.2,26.4 C 176.8,26 178,25.6 179.6,26.6 C 181.2,27.6 234.8,60.8 236.8,62 C 238.8,63.2 238.8,65.2 238.8,65.6 C 238.8,66 239.2,67.6 237.6,69.2 C 236,70.8 234,70.8 232.8,70 C 231.6,69.2 177.4,35.4 176.4,34.8 C 175.4,34.2 173.8,32.2 174,30"/>
+  </g>
+  <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke-dasharray: 4; stroke: #000000" d="M 236.8 62 C 234.8,60.8 232.4,62.4 231.6,64 C 230.8,65.6 231.6,69.2 232.8,70"/>
+  <g>
+    <path style="fill: #ffc7d1" d="M 170.8 33 C 171.6,32.2 172.4,32 173.2,32.4 C 174,32.8 229.2,66.4 230.4,67.6 C 231.6,68.8 231.467,68.6 231.6,69.2 C 231.733,69.8 232,70.4 231.2,71.6 C 230.4,72.8 229.456,73.0934 228,72 C 226.544,70.9066 171.6,37.6 170.8,36.8 C 170,36 170,33.8 170.8,33z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" d="M 170.8 33 C 171.6,32.2 172.4,32 173.2,32.4 C 174,32.8 229.2,66.4 230.4,67.6 C 231.6,68.8 231.467,68.6 231.6,69.2 C 231.733,69.8 232,70.4 231.2,71.6 C 230.4,72.8 229.456,73.0934 228,72 C 226.544,70.9066 171.6,37.6 170.8,36.8 C 170,36 170,33.8 170.8,33"/>
+  </g>
+  <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke-dasharray: 4; stroke: #000000" d="M 246 62 C 238,56 229,63 226,70 C 223,77 222,88 232,96"/>
+  <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke-dasharray: 4; stroke: #000000" d="M 230.4 67.6 C 229.6,67.2 228,68.8 227.6,69.6 C 227.2,70.4 227.6,72 228.8,72.4"/>
+  <g>
+    <path style="fill: #ffc7d1" d="M 180 38 C 180,38.8 181.2,39.6 182,39.2 C 182.8,38.8 184,35.2 186,34 C 188,32.8 187.2,32.8 188.8,32.4 C 190.4,32 190.4,32.8 191.2,32 C 192,31.2 190.8,30 189.6,30 C 188.4,30 188.533,30.0667 187.6,30.4 C 186.667,30.7333 186.867,30.8667 184.8,32 C 182.733,33.1333 180,37.2 180,38z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" d="M 180 38 C 180,38.8 181.2,39.6 182,39.2 C 182.8,38.8 184,35.2 186,34 C 188,32.8 187.2,32.8 188.8,32.4 C 190.4,32 190.4,32.8 191.2,32 C 192,31.2 190.8,30 189.6,30 C 188.4,30 188.533,30.0667 187.6,30.4 C 186.667,30.7333 186.867,30.8667 184.8,32 C 182.733,33.1333 180,37.2 180,38"/>
+  </g>
+  <g>
+    <path style="fill: #ffc7d1" d="M 198 49 C 198,49.8 199.2,50.6 200,50.2 C 200.8,49.8 202,46.2 204,45 C 206,43.8 205.2,43.8 206.8,43.4 C 208.4,43 208.4,43.8 209.2,43 C 210,42.2 208.8,41 207.6,41 C 206.4,41 206.533,41.0667 205.6,41.4 C 204.667,41.7333 204.867,41.8667 202.8,43 C 200.733,44.1333 198,48.2 198,49z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" d="M 198 49 C 198,49.8 199.2,50.6 200,50.2 C 200.8,49.8 202,46.2 204,45 C 206,43.8 205.2,43.8 206.8,43.4 C 208.4,43 208.4,43.8 209.2,43 C 210,42.2 208.8,41 207.6,41 C 206.4,41 206.533,41.0667 205.6,41.4 C 204.667,41.7333 204.867,41.8667 202.8,43 C 200.733,44.1333 198,48.2 198,49"/>
+  </g>
+  <g>
+    <path style="fill: #ffc7d1" d="M 217 61 C 217,61.8 218.2,62.6 219,62.2 C 219.8,61.8 221,58.2 223,57 C 225,55.8 224.2,55.8 225.8,55.4 C 227.4,55 227.4,55.8 228.2,55 C 229,54.2 227.8,53 226.6,53 C 225.4,53 225.533,53.0667 224.6,53.4 C 223.667,53.7333 223.867,53.8667 221.8,55 C 219.733,56.1333 217,60.2 217,61z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" d="M 217 61 C 217,61.8 218.2,62.6 219,62.2 C 219.8,61.8 221,58.2 223,57 C 225,55.8 224.2,55.8 225.8,55.4 C 227.4,55 227.4,55.8 228.2,55 C 229,54.2 227.8,53 226.6,53 C 225.4,53 225.533,53.0667 224.6,53.4 C 223.667,53.7333 223.867,53.8667 221.8,55 C 219.733,56.1333 217,60.2 217,61"/>
+  </g>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="68" y="22.9">
+    <tspan x="68" y="22.9">Dorsal</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="68" y="100.2">
+    <tspan x="68" y="100.2">Ventral</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="36" y="19.2556">
+    <tspan x="36" y="19.2556">Skin muscle</tspan>
+    <tspan x="36" y="24.9">wall</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="104" y="19.2556">
+    <tspan x="104" y="19.2556">Blood</tspan>
+    <tspan x="104" y="24.9">Vessels</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="120" y="46.9">
+    <tspan x="120" y="46.9">Intestine</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="36" y="82.7278">
+    <tspan x="36" y="82.7278">Nerve</tspan>
+    <tspan x="36" y="88.3722">Cord</tspan>
+  </text>
+  <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke-dasharray: 4; stroke: #000000" x1="68" y1="77.4" x2="234" y2="60"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke-dasharray: 4; stroke: #000000" x1="68" y1="86.8" x2="232" y2="98"/>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="244" y="37.2556">
+    <tspan x="244" y="37.2556">Lateral</tspan>
+    <tspan x="244" y="42.9">Giant Axon</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="192" y="84.9906">
+    <tspan x="192" y="84.9906">Median</tspan>
+    <tspan x="192" y="90.635">Giant Axon</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="216" y="26.635">
+    <tspan x="216" y="26.635">Anastomosis</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="104" y1="28" x2="72.8677" y2="35.7831"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="74.9805,33.7087 72.4339,35.8915 75.7081,36.6191 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="120" y1="48" x2="80.8771" y2="55.8246"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="83.0861,53.8531 80.4385,55.9123 83.6744,56.7948 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="36" y1="28" x2="39.5039" y2="33.2558"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="36.8398,31.9638 39.7519,33.6279 39.3359,30.2997 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="40" y1="84" x2="60.1096" y2="82.0848"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="57.7105,83.8201 60.5548,82.0424 57.4261,80.8336 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="204" y1="86" x2="227.368" y2="62.6325"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="226.623,65.4982 227.684,62.3162 224.502,63.3769 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="244" y1="44" x2="234.52" y2="57.2722"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="234.783,54.323 234.26,57.6361 237.224,56.0667 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="216" y1="28" x2="204.537" y2="43.2845"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="204.868,40.3422 204.268,43.6422 207.268,42.1422 "/>
+  </g>
+</svg>

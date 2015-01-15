@@ -1,0 +1,112 @@
+This section reviews the specifications set forth in section~\ref{sec:spec} and shows how well the Data Acquisition and Stimulation System described in this thesis meets those specifications.
+
+\begin{enumerate}
+
+\item Provide a platform for performing electrophysiology experiments with earthworms as described in~\cite{Olivo,KuehJellies}
+
+Successful accomplishment of the earthworm experiment is shown in section~\ref{sec:results}.
+
+	\begin{enumerate}
+	
+	\item Produce a voltage-controlled stimulation pulse that is a square wave with widths from 0.01ms to 100ms and amplitudes from 0.1V to 10V
+	
+	The FPGA and Data Acquisition and Stimulation System Control Center (DASCC) are capable of defining a stimulation waveform that updates the DAC output with a period as short as $1\unit{\mu s}$ and storing up to 4096 waveform samples with variable sample periods from $1\unit{\mu s}$ to 65.536ms~\cite{BatzerMSEE}.  The DAC has a slew rates of $1.5\unit{V}/\unit{\mu s}$~\cite{AD5678ds} and a differential output voltage range of $\pm 14.8\unit{V}$ as shown in section~\ref{sec:DOA}.
+	
+	\item Produce single stimulation pulses or multiple pulses at rates from 1Hz to 10Hz
+	
+	The FPGA and DASCC are capable of defining a stimulation waveform over 1s in length and repeating the waveform indefinitely~\cite{BatzerMSEE}.
+	
+	\item Provide at least one differential recording channel
+	
+	There is the potential for up to eight recording channels, each with a Preamp that has a differential input as shown in section~\ref{sec:preamp}.
+	
+	\item Record action potential voltage from the time of the stimulation pulse for a minimum duration of 20ms
+	
+	Data collected for results in section~\ref{sec:results} is more than 1s in duration.
+	
+	\item Plot the recorded voltage
+	
+	The DASCC is capable of plotting recorded data~\cite{BatzerMSEE}.
+	
+	\item Store the recorded voltage to a non-proprietary, standard file format
+	
+	The DASCC is capable of exporting recorded data to a comma separated values (CSV) text file~\cite{BatzerMSEE}.
+	
+	\end{enumerate}
+	
+
+\item Provide a platform for stimulation and recording of neuron cell cultures in a portion of an MEA
+
+Interfacing the DASS with the MEA is not yet tested
+
+	\begin{enumerate}
+	
+	\item Provide at least four recording channels
+	
+	Eight recording electrodes can be connected to the DASS and stored as digital samples as described in sections~\ref{sec:adc} and~\ref{sec:preamp}.
+	
+	\item Store data from recording channels continuously
+	
+	The data recording time limit has not been fully tested.
+	
+	\item Provide at least four voltage-controlled arbitrary stimulation channels
+	
+	The DASCC is capable of loading an arbitrary waveform as defined by a text file into the DASS, which outputs the waveform using the AD5678 with four DAC outputs shown in section~\ref{sec:dac}~\cite{BatzerMSEE}
+	
+	\item Output single-ended stimulation signals on recording electrodes and add culture voltage offset to the signal
+	
+	The stimulation signals are routed to the Preamp boards which output the stimulation signals on the recording electrodes and add the culture voltage offset as described in section~\ref{sec:preamp}
+	
+	\item Provide an interface that can specify stimulation waveforms, locations, and intervals that can be updated based on data from the recording electrodes
+	
+	The DASCC provides a scripting language for defining recording intervals, stimulation waveforms, and stimulation intervals but does not have provisions for analyzing recorded data and adjusting stimulation strategy~\cite{BatzerMSEE}
+	
+	\end{enumerate}
+
+\item Utilize Low-Noise Amplifier described in~\cite{StahlMSEE}
+
+The Low-Noise Amplifier, also know as the Preamp, is successfully utilized with the DASS; though, not all features are tested.
+
+	\begin{enumerate}
+	
+	\item Connect to each Low-Noise Amplifier channel with a PCI-Express card edge connector
+	
+	Eight PCI-Express card edge connector sockets are available on the Electrophysiology Interface board as described in section~\ref{sec:preamp}
+	
+	\item Provide $\pm 7\unit{V}$ to $\pm 15\unit{V}$ analog voltage supplies and ground via the card edge connector
+	
+	The Electrophysiology Interface board connects its analog voltage supply inputs, which tolerate $\pm 7\unit{V}$ to $\pm 15\unit{V}$, to the Preamp connectors as described sections~\ref{sec:power} and~\ref{sec:preamp}.
+	
+	\item Provide ability to independently switch four digital inputs for each channel, $0_{\mathrm{IH}}=0.8\unit{V}$ and $1_{\mathrm{IL}}=2.4\unit{V}$
+	
+	The CPLD on the Electrophysiology Interface board enables the FPGA to control each digital input on every Preamp channel and voltage compatibility is shown in section~\ref{sec:cpld}, but a logic configuration for the CPLD is not written.
+	
+	\item Route differential analog input to the card edge connector for each channel
+	
+	The differential inputs of the Preamps are routed to a terminal block for simple connection to recording electrodes as described in section~\ref{sec:preamp}.
+	
+	\item Convert the 20Hz to 14.6kHz analog output signal~\cite{StahlMSEE} to digital samples %with a resolution better than (XX)$V/LSB$ [check with references or base number on oscilloscope resolution]
+	
+	An AD7606 ADC converts the Preamp output voltage to digital samples, has an analog low-pass input filter with a corner frequency of 23kHz, and can sample at up to $200\unit{kS}/\unit{s}$, satisfying the sampling theorem, as described in section~\ref{sec:adc}
+	
+	\item Route a single-ended stimulation signal to each channel
+	
+	Four unique stimulation channels with differential outputs are connected single-endedly to the eight Preamp connectors as described in section~\ref{sec:preamp}.
+	
+	\end{enumerate}
+	
+\item Additional requirements
+
+	\begin{enumerate}
+	
+%	\item Produce arbitrary stimulation waveforms with minimum bandwidth (XX)$Hz$ and minimum slew rate (XX)$V / \mu s$
+	
+	\item Employ good circuit design and layout practices
+	
+	Good design and layout practice is attempted throughout the design of the Electrophysiology Interface board and in connecting all the components of the DASS.  For example, bulk and decoupling capacitors are utilized, four-layer PCB construction is used, and analog and digital power supply isolation is attempted.  Although, there may be better strategies for analog and digital isolation than was used in the design of the Electrophysiology Interface board and some of those strategies are discussed in section~\ref{sec:ground}.
+	
+%	[Anything else that doesn't fit in the above categories]
+	
+	\end{enumerate}
+	
+\end{enumerate}

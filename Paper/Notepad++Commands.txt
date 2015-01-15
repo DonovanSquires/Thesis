@@ -1,0 +1,8 @@
+Run pdfLaTeX:
+cmd /c cd /d "$(CURRENT_DIRECTORY)" && X:\Path\to\pdflatex.exe -shell-escape "$(FILE_NAME)" && pause
+
+Run BibTeX:
+cmd /c cd /d "$(CURRENT_DIRECTORY)" && X:\Path\to\bibtex.exe "$(NAME_PART).aux" && pause
+
+Open pdf in SumatraPDF:
+"X:\Path\to\SumatraPDF.exe" "$(CURRENT_DIRECTORY)\$(NAME_PART).pdf"

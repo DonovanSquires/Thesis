@@ -1,0 +1,74 @@
+%\section{Specifications}
+
+%[This is a list of specifications for the combined software and hardware.  It might be better understood if these were called "requirements"]
+
+The Data Acquisition and Stimulation System (DASS) is expected to provide to following functionality:
+
+\begin{enumerate}
+
+\item Provide a platform for performing electrophysiology experiments with earthworms as described in~\cite{Olivo,KuehJellies}
+
+	\begin{enumerate}
+	
+	\item Produce a voltage-controlled square wave stimulation pulse with widths from 0.01ms to 100ms and amplitudes from 0.1V to 10V
+	
+	\item Produce single stimulation pulses or multiple pulses at rates from 1Hz to 10Hz
+	
+	\item Provide at least one differential recording channel
+	
+	\item Record an action potential voltage from the time of a stimulation pulse for a minimum duration of 20ms
+	
+	\item Plot the recorded voltage
+	
+	\item Store the recorded voltage to a non-proprietary, standard file format
+	
+	\end{enumerate}
+	
+
+\item Provide a platform for stimulation and recording of neuron cell culture electrical activity via MEA electrodes
+
+	\begin{enumerate}
+	
+	\item Provide at least four recording channels
+	
+	\item Store data from recording channels continuously
+	
+	\item Provide at least four voltage-controlled arbitrary stimulation channels
+	
+	\item Output single-ended stimulation signals on recording electrodes and add culture voltage offset to the stimulation signal
+	
+	\item Provide an interface that can specify stimulation waveforms, locations, and intervals that can be updated based on data from the recording electrodes
+	
+	\end{enumerate}
+
+\item Utilize Low-Noise Amplifier described in~\cite{StahlMSEE}
+
+	\begin{enumerate}
+	
+	\item Connect to each Low-Noise Amplifier channel with a PCI-Express card edge connector
+	
+	\item Provide $\pm 7\unit{V}$ to $\pm 15\unit{V}$ analog voltage supplies and ground via the card edge connector
+	
+	\item Provide ability to independently switch four digital inputs for each channel, $0_{\mathrm{IH}}=0.8\unit{V}$ and $1_{\mathrm{IL}}=2.4\unit{V}$
+	
+	\item Route differential analog input to the card edge connector for each channel
+	
+	\item Convert the 20Hz to 14.6kHz analog output signal~\cite{StahlMSEE} to digital samples %with a resolution better than (XX)$V/LSB$ [check with references or base number on oscilloscope resolution]
+	
+	\item Route a single-ended stimulation signal to each channel
+	
+	\end{enumerate}
+	
+\item Additional requirements
+
+	\begin{enumerate}
+	
+%	\item Produce arbitrary stimulation waveforms with minimum bandwidth (XX)$Hz$ and minimum slew rate (XX)$V / \mu s$
+	
+	\item Employ proven, effective circuit design and layout best practices
+	
+%	[Anything else that doesn't fit in the above categories]
+	
+	\end{enumerate}
+	
+\end{enumerate}

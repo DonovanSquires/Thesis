@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="13cm" height="9cm" viewBox="15 6 258 162" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="16" y="16" width="72" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke-dasharray: 4; stroke: #000000" x="16" y="16" width="72" height="84"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="92" y="16" width="96" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke-dasharray: 4; stroke: #000000" x="92" y="16" width="96" height="84"/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #a020f0" d="M 220 56 C 236,60 240,60 260,60"/>
+    <path style="fill: #a020f0" d="M 220 56 C 220.182,55.2724 221.091,54.7267 221.819,54.9086 C 222.547,55.0905 223.092,56 222.91,56.7276 C 222.729,57.4552 221.819,58.0009 221.091,57.819 C 220.364,57.6371 219.818,56.7276 220,56z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #a020f0" d="M 220 56 C 220.182,55.2724 221.091,54.7267 221.819,54.9086 C 222.547,55.0905 223.092,56 222.91,56.7276 C 222.729,57.4552 221.819,58.0009 221.091,57.819 C 220.364,57.6371 219.818,56.7276 220,56"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffc7" x="84" y="20" width="12" height="76"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="84" y="20" width="12" height="76"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffc7" x="154" y="20" width="30" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="154" y="20" width="30" height="20"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffc7" x="176" y="48" width="8" height="34"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="176" y="48" width="8" height="34"/>
+  </g>
+  <g>
+    <rect style="fill: #c7ffc7" x="24" y="122" width="50" height="24"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="24" y="122" width="50" height="24"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffc7" x="24" y="80" width="24" height="16"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="24" y="80" width="24" height="16"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffc7" x="52" y="80" width="24" height="16"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="52" y="80" width="24" height="16"/>
+  </g>
+  <g>
+    <path style="fill: #ffc7d1" d="M 244 156 C 252,156 252,148 252,84 C 252,20 252,12 244,12 C 236,12 236,20 236,84 C 236,148 236,156 244,156z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" d="M 244 156 C 252,156 252,148 252,84 C 252,20 252,12 244,12 C 236,12 236,20 236,84 C 236,148 236,156 244,156"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="240" y1="32" x2="232" y2="24"/>
+    <path style="fill: #000000" d="M 232 24 C 232.53,23.4697 233.591,23.4697 234.121,24 C 234.652,24.5303 234.652,25.591 234.121,26.1213 C 233.591,26.6517 232.53,26.6517 232,26.1213 C 231.47,25.591 231.47,24.5303 232,24z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" d="M 232 24 C 232.53,23.4697 233.591,23.4697 234.121,24 C 234.652,24.5303 234.652,25.591 234.121,26.1213 C 233.591,26.6517 232.53,26.6517 232,26.1213 C 231.47,25.591 231.47,24.5303 232,24"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="250" y1="44" x2="242" y2="36"/>
+    <path style="fill: #000000" d="M 242 36 C 242.53,35.4697 243.591,35.4697 244.121,36 C 244.652,36.5303 244.652,37.591 244.121,38.1213 C 243.591,38.6517 242.53,38.6517 242,38.1213 C 241.47,37.591 241.47,36.5303 242,36z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" d="M 242 36 C 242.53,35.4697 243.591,35.4697 244.121,36 C 244.652,36.5303 244.652,37.591 244.121,38.1213 C 243.591,38.6517 242.53,38.6517 242,38.1213 C 241.47,37.591 241.47,36.5303 242,36"/>
+  </g>
+  <g>
+    <rect style="fill: #c7ffc7" x="104" y="122" width="68" height="24"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="104" y="122" width="68" height="24"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffc7" x="118" y="88" width="16" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="118" y="88" width="16" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffc7" x="152" y="88" width="16" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="152" y="88" width="16" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffc7" x="100" y="88" width="16" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="100" y="88" width="16" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffc7" x="138" y="88" width="12" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="138" y="88" width="12" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffc7" x="170" y="88" width="12" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="170" y="88" width="12" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffc7" x="46" y="60" width="16" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="46" y="60" width="16" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffc7" x="22" y="60" width="20" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="22" y="60" width="20" height="8"/>
+  </g>
+  <g>
+    <path style="fill: #c7ffc7" d="M 260 80 C 260,80 260,116 260,116 C 256,112 254,114 252,114 C 252,114 249.694,111.936 244,112 C 238.306,112.064 236,114 236,114 C 234,114 232,112 228,116 C 228,116 228,80 228,80 C 232,76 234,78 236,78 C 236,78 238.4,76 244,76 C 249.6,76 252,78 252,78 C 254,78 256,76 260,80z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke-dasharray: 2; stroke: #000000" d="M 260 80 C 260,80 260,116 260,116 C 256,112 254,114 252,114 C 252,114 249.694,111.936 244,112 C 238.306,112.064 236,114 236,114 C 234,114 232,112 228,116 C 228,116 228,80 228,80 C 232,76 234,78 236,78 C 236,78 238.4,76 244,76 C 249.6,76 252,78 252,78 C 254,78 256,76 260,80"/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #a020f0" d="M 220 88 C 248,88 232,92 252,92"/>
+    <path style="fill: #a020f0" d="M 220 88 C 220,87.25 220.75,86.5 221.5,86.5 C 222.25,86.5 223,87.25 223,88 C 223,88.75 222.25,89.5 221.5,89.5 C 220.75,89.5 220,88.75 220,88z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #a020f0" d="M 220 88 C 220,87.25 220.75,86.5 221.5,86.5 C 222.25,86.5 223,87.25 223,88 C 223,88.75 222.25,89.5 221.5,89.5 C 220.75,89.5 220,88.75 220,88"/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #a020f0" d="M 220 96 C 248,96 232,100 252,100"/>
+    <path style="fill: #a020f0" d="M 220 96 C 220,95.25 220.75,94.5 221.5,94.5 C 222.25,94.5 223,95.25 223,96 C 223,96.75 222.25,97.5 221.5,97.5 C 220.75,97.5 220,96.75 220,96z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #a020f0" d="M 220 96 C 220,95.25 220.75,94.5 221.5,94.5 C 222.25,94.5 223,95.25 223,96 C 223,96.75 222.25,97.5 221.5,97.5 C 220.75,97.5 220,96.75 220,96"/>
+  </g>
+  <path style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" d="M 244 76 C 244,92 248,86 248,96 C 248,106 244,104 244,112"/>
+  <g>
+    <rect style="fill: #c7ffc7" x="100" y="48" width="22" height="34"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="100" y="48" width="22" height="34"/>
+  </g>
+  <g>
+    <rect style="fill: #ffc7d1" x="130" y="66" width="38" height="16"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="130" y="66" width="38" height="16"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffc7" x="152" y="56" width="16" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="152" y="56" width="16" height="8"/>
+  </g>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="52" y="14.635">
+    <tspan x="52" y="14.635">Real Time System Controller</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="140" y="14.9">
+    <tspan x="140" y="14.9">Electrophysiology Interface</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="49" y="135.55">
+    <tspan x="49" y="135.55">PC</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="234" y="48">
+    <tspan x="234" y="48"></tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="182" y="25.55">
+    <tspan x="182" y="25.55">+</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="182" y="37.55">
+    <tspan x="182" y="37.55">‒</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="182" y="31.55">
+    <tspan x="182" y="31.55">AGND</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="120" y="75.55">
+    <tspan x="120" y="75.55">Ch 1</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="182" y="55.55">
+    <tspan x="182" y="55.55">+</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="182" y="63.55">
+    <tspan x="182" y="63.55">‒</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="120" y="59.55">
+    <tspan x="120" y="59.55">Ch 2</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="166" y="31.55">
+    <tspan x="166" y="31.55">Ch 1</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="182" y="71.55">
+    <tspan x="182" y="71.55">+</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="182" y="79.55">
+    <tspan x="182" y="79.55">‒</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="244" y="10.9">
+    <tspan x="244" y="10.9">Earthworm</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="36" y="93.55">
+    <tspan x="36" y="93.55">USB</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="64" y="89.55">
+    <tspan x="64" y="89.55">RS232</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="138" y="141.55">
+    <tspan x="138" y="141.55">Power Supply</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="122" y="126.2">
+    <tspan x="122" y="126.2">+</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="142" y="126.2">
+    <tspan x="142" y="126.2">‒</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="132" y="126.2">
+    <tspan x="132" y="126.2">EGND</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="148" y="126.2">
+    <tspan x="148" y="126.2">+</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="168" y="126.2">
+    <tspan x="168" y="126.2">‒</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="158" y="126.2">
+    <tspan x="158" y="126.2">EGND</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="108" y="126.2">
+    <tspan x="108" y="126.2">+</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="114" y="126.2">
+    <tspan x="114" y="126.2">‒</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="126" y="93.55">
+    <tspan x="126" y="93.55">DGND</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="160" y="93.55">
+    <tspan x="160" y="93.55">AGND</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="108" y="93.55">
+    <tspan x="108" y="93.55">+5VD</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="144" y="93.55">
+    <tspan x="144" y="93.55">+VA</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="176" y="93.55">
+    <tspan x="176" y="93.55">‒VA</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="110" y="132.2">
+    <tspan x="110" y="132.2">+5V</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="132" y="132.2">
+    <tspan x="132" y="132.2">Variable</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="158" y="132.2">
+    <tspan x="158" y="132.2">Variable</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="54" y="65.55">
+    <tspan x="54" y="65.55">DGND</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="42" y="84.2">
+    <tspan x="42" y="84.2">GND</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="30" y="84.2">
+    <tspan x="30" y="84.2">+5V</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="32" y="65.55">
+    <tspan x="32" y="65.55">VCCFX2</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="220" y="68.7278">
+    <tspan x="220" y="68.7278">Chlorided</tspan>
+    <tspan x="220" y="74.3722">Silver Wire</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="220" y1="76" x2="225.6" y2="87.2"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="223.117,85.5875 225.8,87.6 225.8,84.2459 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="220" y1="64" x2="225.368" y2="58.6325"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="224.623,61.4982 225.684,58.3162 222.502,59.3769 "/>
+  </g>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="266" y="124.728">
+    <tspan x="266" y="124.728">Nerve</tspan>
+    <tspan x="266" y="130.372">Cord</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="266" y1="122" x2="246.681" y2="105.579"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="249.598,106.09 246.341,105.29 247.655,108.375 "/>
+  </g>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="266" y="67.55">
+    <tspan x="266" y="67.55">Incision</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="266" y1="70" x2="258.632" y2="77.3675"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="259.377,74.5018 258.316,77.6838 261.498,76.6231 "/>
+  </g>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="110" y="67.55">
+    <tspan x="110" y="67.55">ADC</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="152" y="75.55">
+    <tspan x="152" y="75.55">PreAmp</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="166" y="71.55">
+    <tspan x="166" y="71.55">+</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:end;font-family:CMU Serif;font-style:normal;font-weight:normal" x="166" y="79.55">
+    <tspan x="166" y="79.55">‒</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="132" y="75.55">
+    <tspan x="132" y="75.55">Out</tspan>
+  </text>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:middle;font-family:CMU Serif;font-style:normal;font-weight:normal" x="160" y="61.55">
+    <tspan x="160" y="61.55">AGND</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="64" y1="118.8" x2="64" y2="99.2"/>
+    <polygon style="fill: #000000" points="62.5,118.8 64,121.8 65.5,118.8 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="62.5,118.8 64,121.8 65.5,118.8 "/>
+    <polygon style="fill: #000000" points="65.5,99.2 64,96.2 62.5,99.2 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="65.5,99.2 64,96.2 62.5,99.2 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="36" y1="118.8" x2="36" y2="99.2"/>
+    <polygon style="fill: #000000" points="34.5,118.8 36,121.8 37.5,118.8 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="34.5,118.8 36,121.8 37.5,118.8 "/>
+    <polygon style="fill: #000000" points="37.5,99.2 36,96.2 34.5,99.2 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="37.5,99.2 36,96.2 34.5,99.2 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="184" y1="24" x2="228.8" y2="24"/>
+    <polygon style="fill: #000000" points="228.8,25.5 231.8,24 228.8,22.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="228.8,25.5 231.8,24 228.8,22.5 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="184,36 196,36 196,54 187.2,54 "/>
+    <polygon style="fill: #000000" points="187.2,52.5 184.2,54 187.2,55.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="187.2,52.5 184.2,54 187.2,55.5 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="200,36 200,62 187.2,62 "/>
+    <polygon style="fill: #000000" points="187.2,60.5 184.2,62 187.2,63.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="187.2,60.5 184.2,62 187.2,63.5 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="200" cy="36" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="200" cy="36" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="184,30 200,30 200,36 238.8,36 "/>
+    <polygon style="fill: #000000" points="238.8,37.5 241.8,36 238.8,34.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="238.8,37.5 241.8,36 238.8,34.5 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="220,96 192,96 192,78 187.2,78 "/>
+    <polygon style="fill: #000000" points="187.2,76.5 184.2,78 187.2,79.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="187.2,76.5 184.2,78 187.2,79.5 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="220,88 196,88 196,70 187.2,70 "/>
+    <polygon style="fill: #000000" points="187.2,68.5 184.2,70 187.2,71.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="187.2,68.5 184.2,70 187.2,71.5 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="108,122 108,99.2 "/>
+    <polygon style="fill: #000000" points="109.5,99.2 108,96.2 106.5,99.2 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="109.5,99.2 108,96.2 106.5,99.2 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="114,122 114,108 126,108 126,99.2 "/>
+    <polygon style="fill: #000000" points="127.5,99.2 126,96.2 124.5,99.2 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="127.5,99.2 126,96.2 124.5,99.2 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="122,122 122,112 144,112 144,99.2 "/>
+    <polygon style="fill: #000000" points="145.5,99.2 144,96.2 142.5,99.2 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="145.5,99.2 144,96.2 142.5,99.2 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="148,122 148,116 164,116 164,110 160,110 160,99.2 "/>
+    <polygon style="fill: #000000" points="161.5,99.2 160,96.2 158.5,99.2 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="161.5,99.2 160,96.2 158.5,99.2 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="168,122 168,108 176,108 176,99.2 "/>
+    <polygon style="fill: #000000" points="177.5,99.2 176,96.2 174.5,99.2 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="177.5,99.2 176,96.2 174.5,99.2 "/>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="142,122 142,116 148,116 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="158,122 158,116 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="114,116 142,116 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="132,122 132,120 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="133,121 131,119 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="133,119 131,121 "/>
+  <g>
+    <ellipse style="fill: #000000" cx="158" cy="116" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="158" cy="116" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="148" cy="116" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="148" cy="116" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="142" cy="116" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="142" cy="116" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="114" cy="116" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="114" cy="116" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="164,116 204,116 204,56 216.8,56 "/>
+    <polygon style="fill: #000000" points="216.8,57.5 219.8,56 216.8,54.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="216.8,57.5 219.8,56 216.8,54.5 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x1="32" y1="80" x2="32" y2="71.2"/>
+    <polygon style="fill: #000000" points="33.5,71.2 32,68.2 30.5,71.2 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="33.5,71.2 32,68.2 30.5,71.2 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="42,80 42,74 54,74 54,71.2 "/>
+    <polygon style="fill: #000000" points="55.5,71.2 54,68.2 52.5,71.2 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="55.5,71.2 54,68.2 52.5,71.2 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="164" cy="116" rx="0.5" ry="0.5"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="164" cy="116" rx="0.5" ry="0.5"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="176,70 171.2,70 "/>
+    <polygon style="fill: #000000" points="171.2,68.5 168.2,70 171.2,71.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="171.2,68.5 168.2,70 171.2,71.5 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="176,78 171.2,78 "/>
+    <polygon style="fill: #000000" points="171.2,76.5 168.2,78 171.2,79.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="171.2,76.5 168.2,78 171.2,79.5 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="130,74 125.2,74 "/>
+    <polygon style="fill: #000000" points="125.2,72.5 122.2,74 125.2,75.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="125.2,72.5 122.2,74 125.2,75.5 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="176,62 174,62 174,60 171.2,60 "/>
+    <polygon style="fill: #000000" points="171.2,58.5 168.2,60 171.2,61.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="171.2,58.5 168.2,60 171.2,61.5 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="176,54 136,54 136,58 125.2,58 "/>
+    <polygon style="fill: #000000" points="125.2,56.5 122.2,58 125.2,59.5 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" points="125.2,56.5 122.2,58 125.2,59.5 "/>
+  </g>
+  <g>
+    <rect style="fill: #c7ffc7" x="16" y="160" width="8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="16" y="160" width="8" height="8"/>
+  </g>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="26" y="165.55">
+    <tspan x="26" y="165.55">Digital Part(s)</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffc7d1" x="56" y="160" width="8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="56" y="160" width="8" height="8"/>
+  </g>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="66" y="165.55">
+    <tspan x="66" y="165.55">Analog Part(s)</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffc7" x="98" y="160" width="8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 0.4; stroke: #000000" x="98" y="160" width="8" height="8"/>
+  </g>
+  <text font-size="4.51556" style="fill: #000000;text-anchor:start;font-family:CMU Serif;font-style:normal;font-weight:normal" x="108" y="165.55">
+    <tspan x="108" y="165.55">Connector(s)</tspan>
+  </text>
+</svg>

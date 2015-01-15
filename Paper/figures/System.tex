@@ -1,0 +1,140 @@
+\documentclass{minimal}
+
+\usepackage{tikz}
+\usetikzlibrary{backgrounds,circuits.ee.iec,calc,arrows,shadings,shapes.geometric}
+
+
+ \begin{document}
+
+\begin{tikzpicture}[scale=1,
+					show background rectangle,
+					node distance = 0.5cm,
+					circuit ee IEC,
+					set resistor graphic=var resistor IEC graphic,]
+
+%----PC-----					
+
+\node (PC) [transform shape,
+				anchor=south west,
+				draw,
+				top color = green!20!white!20,
+				bottom color = green!80!black!20,
+				minimum height=1.5cm,
+				minimum width=7cm,
+				text height=1.5ex,text depth=.25ex,
+				] at (0,0) {PC};
+
+				
+					
+%----Nexys2-----
+
+\node (Nexys2) [transform shape,
+				anchor=south west,
+				draw,
+				dashed,
+				minimum height=7.5cm,
+				minimum width=7cm,
+				label={[text height=1.5ex,text depth=.25ex]Nexys2},
+				] at ($(PC.north west) + (0,1)$) {};
+				
+\node (PROM) [transform shape,
+				anchor=north west,
+				draw,
+				top color = green!20!white!20,
+				bottom color = green!80!black!20,
+				minimum height=1.5cm,
+				minimum width=1.5cm,
+				text height=1.5ex,text depth=.25ex,
+				] at ($(Nexys2.north west) + (0.5,-0.5)$) {PROM};
+				
+\node (uC) [transform shape,
+				anchor=south west,
+				draw,
+				top color = green!20!white!20,
+				bottom color = green!80!black!20,
+				minimum height=1.5cm,
+				minimum width=1.5cm,
+				text height=1.5ex,text depth=.25ex,
+				] at ($(Nexys2.south west) + (0.5,0.5)$) {$\mu$C};
+				
+\node (FPGA) [transform shape,
+				anchor=south west,
+				draw,
+				top color = green!20!white!20,
+				bottom color = green!80!black!20,
+				minimum height=6cm,
+				minimum width=3cm,
+				text height=1.5ex,text depth=.25ex,
+				] at ($(uC.south east) + (1,0)$) {FPGA};
+				
+%----Stimulation and Data Acqusition-----
+
+\node (StimDaq) [transform shape,
+				anchor=south west,
+				draw,
+				dashed,
+				minimum height=7.5cm,
+				minimum width=7cm,
+				label={[text height=1.5ex,text depth=.25ex]Stimulation and Data Acqusition},
+				] at ($(Nexys2.south east) + (0.5,0)$) {};
+
+\node (DAC) [transform shape,
+				anchor=north west,
+				draw,
+				top color = green!20!white!20,
+				bottom color = green!80!black!20,
+				minimum height=1.5cm,
+				minimum width=1.5cm,
+				text height=1.5ex,text depth=.25ex,
+				] at ($(StimDaq.north west) + (1,-0.5)$) {DAC};
+
+\node (StimAMP) [transform shape,
+				anchor=west,
+				isosceles triangle,
+				isosceles triangle stretches,
+				draw,
+				top color = red!20!white!20,
+				bottom color = red!80!black!20,
+				minimum height=1.5cm,
+				minimum width=1.5cm,
+				text height=1.5ex,text depth=.25ex,
+				label={[text height=1.5ex,text depth=.25ex]75:x4},
+				] at ($(DAC.east) + (1.5,0)$) {};
+
+%draw line from the edge of the triangle to a point orthoganal from the northeast corner to the east side of the triangle
+%which would be the northwest corner if the shape were a triangle (see sec13.5.5 of Tikz manual)				
+\draw (StimAMP.north east) -- node[at end,name=StimAMP+,right] {+} ($(StimAMP.east)!(StimAMP.north west)!(StimAMP.east)+(0,1)$);
+				
+\node (ADC) [transform shape,
+				anchor=north west,
+				draw,
+				top color = green!20!white!20,
+				bottom color = green!80!black!20,
+				minimum height=1.5cm,
+				minimum width=1.5cm,
+				text height=1.5ex,text depth=.25ex,
+				] at ($(DAC.south west) + (0,-1)$) {ADC};
+				
+\node (CPLD) [transform shape,
+				anchor=north west,
+				draw,
+				top color = green!20!white!20,
+				bottom color = green!80!black!20,
+				minimum height=1.5cm,
+				minimum width=1.5cm,
+				text height=1.5ex,text depth=.25ex,
+				] at ($(ADC.south west) + (0,-1)$) {CPLD};
+
+\node (PreAMP) [transform shape,
+				anchor=north west,
+				draw,
+				top color = yellow!20!white!20,
+				bottom color = yellow!80!black!20,
+				minimum height=4cm,
+				minimum width=1.5cm,
+				text height=1.5ex,text depth=.25ex,
+				label={[text height=1.5ex,text depth=.25ex]x8},
+				] at ($(ADC.north east) + (1.5,0)$) {PreAMP};
+
+\end{tikzpicture}
+\end{document}
